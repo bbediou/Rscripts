@@ -7,7 +7,7 @@ shinyServer(function(input, output) {
   
   
    output$distPlot <- renderPlot({
-     path.img='https://github.com/bbediou/Rscripts/KDEF34/'
+     path.img='./KDEF34/'
      
      target_means=seq(-2,2,by=.5)
      target_sds=seq(.2,.8,by=.2)

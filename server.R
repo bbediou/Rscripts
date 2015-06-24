@@ -2,6 +2,11 @@ library(ggplot2)
 library(png)
 library(gridExtra)
 library(gridBase)
+library(shiny)
+library(png)
+library(gridBase)
+
+load('NEWSTIM_WORKSPACE_FINAL.RData')
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   
